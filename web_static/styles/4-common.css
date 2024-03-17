@@ -1,3 +1,8 @@
+/* Normalize box model */
+:root {
+    --box-model: border-box;
+}
+
 /* Global Reset */
 html, body {
     margin: 0;
@@ -10,4 +15,11 @@ html, body {
     margin: auto;
     padding-top: 20px
 
+}
+
+/* Reset margins and paddings */
+*, *::before, *::after {
+    margin: 0;
+    box-sizing: var(--box-model);
+    padding: 0;
 }
