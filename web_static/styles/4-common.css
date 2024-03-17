@@ -1,25 +1,22 @@
 /* Normalize box model */
 :root {
-    --box-model: border-box;
+	--box-model: border-box;
 }
-
 /* Global Reset */
 html, body {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
 }
-
 .container {
-    max-width: 1000px;
-    margin: auto;
-    padding-top: 20px
+	max-width: 1000px;
+	margin: auto;
+	padding-top: 20px
 
 }
-
 /* Reset margins and paddings */
 *, *::before, *::after {
-    margin: 0;
-    box-sizing: var(--box-model);
-    padding: 0;
+	margin: 0;
+	box-sizing: var(--box-model);
+	padding: 0;
 }
